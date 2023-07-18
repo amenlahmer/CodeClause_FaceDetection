@@ -20,21 +20,21 @@ YOLOv5 offers flexibility by supporting various backbone architectures like CSPD
 Overall, YOLOv5 stands as a prominent object detection solution, offering remarkable performance, efficiency, flexibility, and ease of use. Its impact spans diverse fields, including autonomous driving, surveillance systems, robotics, and beyond, advancing the field of computer vision.
 
 ## Requirements
--A GP100 session with the following requirements installed:
-gitpython>=3.1.30
-matplotlib>=3.3
-numpy>=1.18.5
-opencv-python>=4.1.1
-Pillow>=7.1.2
-psutil  # system resources
-PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1
-thop>=0.1.1  # FLOPs computation
-torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
-torchvision>=0.8.1
-tqdm>=4.64.0
-ultralytics>=8.0.111.
+-A GP100 session with the following requirements installed:  
+ +gitpython>=3.1.30
+ +matplotlib>=3.3  
+ +numpy>=1.18.5  
+ +opencv-python>=4.1.1  
+ +Pillow>=7.1.2  
+ +psutil  # system resources  
+ +PyYAML>=5.3.1  
+ +requests>=2.23.0  
+ +scipy>=1.4.1  
+ +thop>=0.1.1  # FLOPs computation  
+ +torch>=1.7.0  # see https://pytorch.org/get-started/locally   
+ +torchvision>=0.8.1  
+ +tqdm>=4.64.0  
+ +ultralytics>=8.0.111  
 
 ## Usage
 1.Clone the repository and install the required dependencies.
