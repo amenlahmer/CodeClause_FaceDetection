@@ -8,12 +8,12 @@ The project I undertook was focused on developing an efficient and accurate face
 - Requirements
 - Usage
 
-## Dataset
+## Dataset(Wider_face)
 The dataset comprises over 32,000 images, making it substantial in size. It contains more than 390,000 labeled faces, making it a valuable resource for training and evaluating face detection models. The dataset includes faces with different poses, occlusions, and lighting conditions, representing the challenges faced in real-life scenarios.
 
 One notable feature of the WIDER Face dataset is its extensive annotation. Each image is carefully annotated with bounding boxes around the faces, providing precise location information for training and evaluation purposes. This level of annotation enables researchers and developers to fine-tune face detection models and assess their performance accurately.
 
-## Model 
+## Model(YOLOv5) 
 YOLOv5 is a state-of-the-art object detection algorithm renowned for its accuracy and speed. It follows a single-shot detection approach, processing the entire image in one go rather than using multiple stages. This design makes it highly efficient for real-time applications.
 The architecture of YOLOv5 comprises a backbone network, neck network, and detection head. The backbone extracts image features, the neck network enhances these features, and the detection head predicts bounding boxes, object classes, and confidence scores.
 YOLOv5 offers flexibility by supporting various backbone architectures like CSPDarknet53 and EfficientNet. It also provides different model sizes to balance speed and accuracy based on available computational resources.
